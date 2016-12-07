@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $('#content').load('content/home.html');
+  $('#content').load('../pages/home.html');
 });
 
 $('div#bs-example-navbar-collapse-1 ul li a').click(function() {
