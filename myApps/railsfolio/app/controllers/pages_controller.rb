@@ -10,4 +10,9 @@ class PagesController < ApplicationController
 
   def projects
   end
+
+  def index
+  end
+
+
 end

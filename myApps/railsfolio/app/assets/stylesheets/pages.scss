@@ -1,3 +1,44 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.page-header {
+  font-size: 5vw;
+  font-style: italic;
+}
+
+.pull-page {
+  color: rgb(0, 198, 186);
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+
+#keith {
+  margin-left: 5vw;
+  font-size: 3vw;
+}
+
+#home-info {
+  padding-bottom: 2vh;
+  border-bottom: black solid 3px;
+}
+
+#home-info:before {
+  border-bottom: gray solid 3px;
+}
+
+.info-right {
+  align: right;
+  margin-left: 10vw;
+}
+
+.info-left {
+  margin-right: 10vw;
+}
+
+ #me-pic {
+  width: 40vw;
+	border: 1px solid #999;
+	background-color: #fcfcfc;
+	padding: 4px;
+ }

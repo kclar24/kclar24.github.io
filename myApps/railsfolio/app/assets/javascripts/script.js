@@ -1,7 +1,8 @@
 $(document).ready(function() {
-  $('#content').load('../pages/home.html');
-});
+  $('nav div#bs-example-navbar-collapse-1 ul li a').click(function() {
+    var page = $(this).attr('href');
+    $('#content').load('pages/' + page + ' #' + page + '-container');
+    return false;
+  });
 
-$('div#bs-example-navbar-collapse-1 ul li a').click(function() {
-  alert('OK');
 });
