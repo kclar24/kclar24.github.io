@@ -9,6 +9,8 @@ Rails.application.routes.draw do
 
   get 'pages/index'
 
+  get 'pages/resume'
+
   root 'pages#index'
 
   # The priority is based upon order of creation: first created -> highest priority.

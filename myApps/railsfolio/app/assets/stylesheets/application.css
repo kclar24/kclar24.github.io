@@ -23,7 +23,24 @@ p {
 }
 
 body {
+  background: url("https://i.sli.mg/LiEbIU.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-color: rgb(207, 207, 207);
-  height: 100%;
-  width: 100%;
+
+}
+
+#keith-nav {
+  background-color: inherit;
+  border: none;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  margin-left: 15vw;
+  margin-top: 5vh;
+  /*box-shadow: 3px 3px 0px #999;*/
+}
+
+#logo {
+  height: 50px;
 }
